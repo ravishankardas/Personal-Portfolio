@@ -39,6 +39,7 @@ import globalAi from "./global-ai.jpeg";
 import khoj from "./khoj.jpg";
 import kosh from "./kosh.png";
 import polkadot_dev_cli from "./polkadot-dev-cli.png";
+import agatsa from "./agatsa.jpeg";
 
 export {
   menu,
@@ -81,5 +82,6 @@ export {
   iitk,
   nshm,
   hackercup,
-  ravishankar
+  ravishankar,
+  agatsa
 };

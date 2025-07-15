@@ -13,6 +13,7 @@ import {
   recruitment,
   huntly,
   oracle,
+  agatsa,
   comicify_ai,
   greentrust,
   averlon,
@@ -403,8 +404,8 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Agatsa Software, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    logo: agatsa,
+    link: "https://www.linkedin.com/company/agatsa/?originalSubdomain=pt",
     positions: [
       {
         title: "Machine Learning Engineer",
