@@ -827,9 +827,9 @@ export const aboutMe = {
   name: "Ravi Shankar Das",
   githubUsername: "ravishankardas",
   tagLine:
-    "Ex-Machine Learning Engineer @Agatsa | IITK'23",
+    "Machine Learning Engineer | IITK'23",
   intro:
-    "Software Developer from India who is either busy improving his craft or pondering over the next big idea.",
+    "Machine Learning Engineer specializing in building scalable AI solutions, with expertise in deep learning, NLP, and data-driven product development.",
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
