@@ -623,7 +623,7 @@ export const projects = [
   },
   {
   id: "project-6",
-  title: "Real-time Voice Conversion Pipeline with Seed-VC",
+  title: "Accent Changer",
   github: "", // Add your GitHub repo link
   link: "https://www.kaggle.com/code/ravishankardas/accentchanger", // Your Kaggle notebook link
   image: "", // You'll need to add the image reference
