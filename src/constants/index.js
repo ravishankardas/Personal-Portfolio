@@ -619,6 +619,41 @@ export const projects = [
       },
     ],
   },
+  {
+  id: "project-6",
+  title: "Real-time Voice Conversion Pipeline with Seed-VC",
+  github: "", // Add your GitHub repo link
+  link: "https://www.kaggle.com/code/ravishankardas/accentchanger", // Your Kaggle notebook link
+  image: "", // You'll need to add the image reference
+  content: "Built an end-to-end voice conversion pipeline using Seed-VC that transforms YouTube videos with custom voice cloning. Features automated video processing, GPU-optimized inference, and web-based deployment with duration controls and browser-compatible output.",
+  stack: [
+    {
+      id: "icon-1",
+      icon: SiPython,
+      name: "Python",
+    },
+    {
+      id: "icon-2", 
+      icon: SiPytorch, // For Seed-VC model
+      name: "PyTorch",
+    },
+    {
+      id: "icon-3",
+      icon: SiGradio, // For the web interface
+      name: "Gradio", 
+    },
+    {
+      id: "icon-4",
+      icon: SiFFmpeg, // For video/audio processing
+      name: "FFmpeg",
+    },
+    {
+      id: "icon-5",
+      icon: SiKaggle, // For deployment platform
+      name: "Kaggle",
+    },
+  ],
+}
 ];
 
 export default projects;
