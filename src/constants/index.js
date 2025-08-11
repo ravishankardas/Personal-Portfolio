@@ -93,10 +93,12 @@ import {
   SiPandas,
   SiJupyter,
   SiOpensearch,
+  SiFfmpeg,
+  SiStreamlit,
   
 } from "react-icons/si";
 
-import { FaHardHat, FaRust } from "react-icons/fa";
+import { FaHardHat, FaKaggle, FaRust } from "react-icons/fa";
 
 import { IoIosNotificationsOutline } from "react-icons/io";
 
@@ -639,17 +641,17 @@ export const projects = [
     },
     {
       id: "icon-3",
-      icon: SiGradio, // For the web interface
-      name: "Gradio", 
+      icon: SiStreamlit, // For the web interface
+      name: "Streamlit",
     },
     {
       id: "icon-4",
-      icon: SiFFmpeg, // For video/audio processing
+      icon: SiFfmpeg, // For video/audio processing
       name: "FFmpeg",
     },
     {
       id: "icon-5",
-      icon: SiKaggle, // For deployment platform
+      icon: FaKaggle, // For deployment platform
       name: "Kaggle",
     },
   ],
