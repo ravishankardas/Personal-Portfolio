@@ -655,7 +655,43 @@ export const projects = [
       name: "Kaggle",
     },
   ],
+},
+{
+  id: "project-7",
+  title: "Legal-LLaMA Chatbot",
+  github: "", // Add GitHub repo link if you push inference code
+  link: "https://huggingface.co/DeathBlade020/legal-llama-3b", // Kaggle demo
+  image: "", // Add Hugging Face/Kaggle screenshot
+  content: "Fine-tuned LLaMA-3B on 14.5K Indian legal Q&A pairs using LoRA + Unsloth, creating a domain-specific Legal AI Assistant. Optimized with 4-bit quantization for efficient inference and deployed as a Gradio chatbot on Kaggle with Hugging Face model hosting.",
+  stack: [
+    {
+      id: "icon-1",
+      icon: SiPython,
+      name: "Python",
+    },
+    {
+      id: "icon-2",
+      icon: SiPytorch, // For LLaMA + LoRA training
+      name: "PyTorch",
+    },
+    {
+      id: "icon-3",
+      icon: SiStreamlit, // For chatbot interface
+      name: "Streamlit",
+    },
+    {
+      id: "icon-4",
+      icon: SiHuggingface, // For HF Hub model hosting
+      name: "Hugging Face",
+    },
+    {
+      id: "icon-5",
+      icon: FaKaggle, // For deployment platform
+      name: "Kaggle",
+    },
+  ],
 }
+
 ];
 
 export default projects;
